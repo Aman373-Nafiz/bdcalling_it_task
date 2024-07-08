@@ -15,8 +15,8 @@ class ShowGridView extends StatelessWidget {
         shrinkWrap: true,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 4,
-            crossAxisSpacing: 8.5,
-            mainAxisSpacing: 8.5,
+            crossAxisSpacing: 10,
+            mainAxisSpacing: 10,
           ),
           itemCount: AV.length,
           itemBuilder: (context, index) {
